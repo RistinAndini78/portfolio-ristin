@@ -602,6 +602,10 @@ hr {
     margin-top: 10px;   /* jarak lebih dekat */
 }
 
+.project-uiux .project-card {
+    max-width: 700px;   /* ubah jadi 600px kalau mau lebih kecil */
+    margin: 0 auto;     /* supaya tetap di tengah */
+}
 
 .info-pro{
     margin-bottom: 20px;
@@ -611,7 +615,7 @@ hr {
 .project h1 {
     font-family: "Poppins", sans-serif;
     padding-bottom: 10px;
-    color: #4da3ff;
+    color: #000000;
     letter-spacing: 1px;
 }
 
@@ -946,12 +950,12 @@ hr {
 .service-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #9ecbff;
+    color: #092b53;
 }
 
 /* DESCRIPTION */
 .service-card p {
-    color: #d6e0ff;
+    color: #092b53;
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
@@ -966,7 +970,7 @@ hr {
 
 .service-features span {
     background: rgba(77, 163, 255, 0.15);
-    color: #9ecbff;
+    color: #092b53;
     padding: 0.35rem 0.9rem;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -983,7 +987,7 @@ hr {
 }
 
 .services {
-    margin: 160px 100px;
+    margin: 60px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1007,7 +1011,7 @@ hr {
 .services p {
     padding-bottom: 20px;
     font-size: 14px;
-    color: #cfdcff;
+    color: #092b53;
 }
 
 .services hr {
@@ -1023,7 +1027,7 @@ hr {
 
 #contact {
   width: 100%;
-  padding: 120px 0;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1041,7 +1045,7 @@ hr {
 
 /* LEFT SIDE */
 .contact-info p {
-  color: #cfdcff;
+  color: #061338;
   margin-bottom: 30px;
   line-height: 1.8;
 }
@@ -1056,7 +1060,7 @@ hr {
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
-  color: #d6e0ff;
+  color: #061338;
 }
 
 .contact-item svg {
@@ -1079,7 +1083,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9ecbff;
+  color: #061338;
   transition: 0.3s ease;
 }
 
@@ -1092,11 +1096,11 @@ hr {
 /* FORM */
 .contact-form {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(77, 163, 255, 0.25);
+  border: 1px solid rgba(249, 250, 250, 0.25);
   border-radius: 18px;
   padding: 35px;
   backdrop-filter: blur(12px);
-  box-shadow: 0 0 30px rgba(77, 163, 255, 0.25);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
 }
 
 /* INPUTS */
@@ -1109,10 +1113,15 @@ hr {
   width: 100%;
   padding: 15px;
   background: rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(77, 163, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
-  color: #f2f6ff;
+  color: #000000;
   transition: 0.3s;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #000000; /* navy */
+  opacity: 1;
 }
 
 .form-group input:focus,
